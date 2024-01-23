@@ -1,11 +1,14 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 def app():
-    st.title('Streamlit Live Show YouTube Playlist', 
+    st.title('Streamlit Live Show Playlist 🎈', 
              anchor=False
     )
 
     video_ids = [
+        'dM_EOBQnh0k',
         '58LClFx3WOY',
         'T_ZmJecsqCs',
         'PLKkudXYCNI',
